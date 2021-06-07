@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import * as React from "react"
 import Layout from '../components/layout'
 
@@ -189,6 +190,8 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="My first Site">
       <p>Gatsby is great</p>
+      <StaticImage alt="dog" src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large">
+      </StaticImage>
     </Layout>
   )
 }
